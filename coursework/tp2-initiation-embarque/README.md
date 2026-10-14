@@ -8,6 +8,9 @@ Pour m'entraîner en autonomie avant la séance encadrée, j'ai reproduit la man
 
 Lecture d'un potentiomètre via l'ADC1, mise à l'échelle du signal (gain 4/4095), puis comparaison à trois seuils qui pilotent l'allumage de LED sur des sorties GPIO.
 
+![Configuration des pins STM32CubeMX](media/manip4b_cubemx_pinout.png)
+*Configuration des pins sous STM32CubeMX (projet `Manip_1Led_F446.ioc`, NUCLEO-F446RE) : sorties GPIO pour les LED (PA10, PA8) et entrée ADC1 pour le potentiomètre.*
+
 ![Diagramme Simulink réel](media/manip4b_diagram_simulink.png)
 *Modèle Simulink réel, déployé et fonctionnel sur ma carte.*
 
